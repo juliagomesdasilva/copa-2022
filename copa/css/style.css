@@ -1,0 +1,106 @@
+*{
+	padding:0%;
+	margin:0%;
+}
+.pagina{
+	height: 100vh;
+	width: 100%;
+}
+.img{
+	height:100%;
+	width:100%;
+}
+.pesquisa{
+	height:8vh;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+}
+#texto1{
+	height:2.8vh;
+	width:18%;
+	background-color: black;
+}
+#menu{
+	height:2.8vh;
+	width:6%;
+	justify-content: space-between;
+	display: flex;
+}
+.quadradinho{
+	height:100%;
+	width:25%;
+}
+.baner{
+	height:30vh;
+	width:100%;
+	background-color:#550065;
+}
+.placar{
+	height:20vh;
+	width:40%;
+	margin-top: 5vh;
+	margin-left:12vh;
+}
+.placar2{
+	height:20vh;
+	width:40%;
+	margin-top: 5vh;
+	margin-left:12vh;
+}
+.container1{
+	display:flex;
+	height:35vh;
+	width:100%;
+	justify-content: space-between;
+	margin-top:10px;
+}
+.jogo{
+	height:18vh;
+	width: 18%;
+	margin-left:20px;
+	margin-right:20px;
+}
+.esct{
+	height:10vh;
+	width:23vh;
+	font-family:arial;
+	margin-left:4px;
+}
+.contener2{
+	height: 85vh;
+	width: 100%;
+	display: flex;
+	margin-top: 10px;
+}
+.anuncio1{
+	height: 100%;
+	width: 33.3%;
+	margin-left:20px;
+	margin-right:20px;
+}
+.anuncio2{
+	height: 100%;
+	width: 33.3%;
+	align-content: center;
+}
+.esct1{
+	height:15vh;
+	width:66vh;
+	font-family:arial;
+	margin-left:4px;
+}
+.anuncio3{
+	height: 100%;
+	width: 33.3%;
+	margin-left: 20px;
+	margin-right:20px;
+}
+@media(max-width:760px){
+	.fundo1,.fundo3{
+		display: none;
+	}
+	.container1{
+		flex-wrap: wrap;
+	}
+}
